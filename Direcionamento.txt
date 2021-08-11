@@ -1,0 +1,23 @@
+loja de bolsas 
+página inicial
+    cabeçalho 
+    menu 
+        inicial
+        produtos(bolsas)
+        quem somos
+        fale conosco
+    conteudo
+    rodapé
+produtos
+    tabela com lista de bolsas
+        foto
+        título
+        preço
+produto selecionado
+    Descrição
+    foto
+    nome 
+    preço
+quem somos
+fale conosco
+    criar formulário    
