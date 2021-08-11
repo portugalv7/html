@@ -1,12 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-<title>Page Title</title>
+    <title>Sacolão das bolsas</title> 
+    <meta charset="utf-8">
 </head>
 <body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
+    <header>
+        <span><h1>Sacolão das Bolsas</h1></span>
+        <nav>
+        <ul>
+            <li>
+                <h2><a href="index.html" target="_self">Inicial</a></h2>
+            </li>
+            <li>
+                <h2><a href="produtos.html" target="_self">Produtos</a></h2>
+            </li>
+            <li>
+                <h2><a href="quem_somos.html" target="_self">Quem somos</a></h2>
+            </li>
+            <li>
+                <h2><a href="fale_conosco.html" target="_self">Fale Conosco</a></h2>
+            </li>
+        </ul>
+    </nav> 
+    </header>
+    <main>
+        <div><h2><span>Envie-nos sua mensagem</span></h2></div>
+        <form action="cadastro.php" method="POST">
+            <div><label>Nome</label></div>
+            <input type="text" name="Nome">
+            <div><label>Telefone</label></div>
+            <input type="text" name="telefone">
+            <div><label>Assunto</label></div>
+            <input type="text" name="assunto">
+            <div><label>Mensagem</label></div>
+            <textarea></textarea>
+            <button>Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <div><h2><a href="quem_somos.html" target="_self">Quem somos</a></h2></div>
+        <div><h2><a href="fale_conosco.html" target="_self">Fale Conosco</a></h2></div>
+    </footer>
 </body>
 </html>
